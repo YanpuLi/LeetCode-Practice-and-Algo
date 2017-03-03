@@ -4,6 +4,8 @@ class Solution(object):
         :type s: str
         :type t: str
         :rtype: bool
+        change s, t into dictionary,
+        then compare the values()
         """
         
         if len(s) != len(t): return False
